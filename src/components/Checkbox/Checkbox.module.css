@@ -1,0 +1,42 @@
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--ui-font-family);
+}
+
+.input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--ui-color-primary);
+  cursor: pointer;
+}
+
+.label {
+  font-size: 14px;
+  color: var(--ui-color-text);
+  cursor: pointer;
+}
+
+.input:focus-visible {
+  outline: 2px solid var(--ui-color-outline);
+  outline-offset: 2px;
+}
+
+.error .input {
+  accent-color: var(--ui-color-danger);
+}
+
+.error .label {
+  color: var(--ui-color-danger);
+}
+
+.disabled {
+  opacity: 0.6;
+}
+
+.disabled .input,
+.disabled .label {
+  cursor: not-allowed;
+}

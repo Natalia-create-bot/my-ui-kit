@@ -1,0 +1,61 @@
+:root {
+  --ui-font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --ui-color-bg: #ffffff;
+  --ui-color-surface: #ffffff;
+  --ui-color-text: #111827;
+  --ui-color-muted: #6b7280;
+  --ui-color-border: #d1d5db;
+
+  --ui-color-primary: #2563eb;
+  --ui-color-primary-hover: #1d4ed8;
+  --ui-color-primary-contrast: #ffffff;
+
+  --ui-color-secondary: #e5e7eb;
+  --ui-color-secondary-hover: #d1d5db;
+  --ui-color-secondary-contrast: #111827;
+
+  --ui-color-outline: #2563eb;
+  --ui-color-outline-hover-bg: rgba(37, 99, 235, 0.08);
+
+  --ui-color-danger: #dc2626;
+  --ui-color-danger-bg: #fef2f2;
+
+  --ui-color-overlay: rgba(17, 24, 39, 0.5);
+  --ui-shadow-md: 0 10px 30px rgba(0, 0, 0, 0.15);
+  --ui-radius-sm: 6px;
+  --ui-radius-md: 10px;
+  --ui-transition: 0.2s ease;
+}
+
+[data-theme='dark'] {
+  --ui-color-bg: #0f172a;
+  --ui-color-surface: #111827;
+  --ui-color-text: #f3f4f6;
+  --ui-color-muted: #9ca3af;
+  --ui-color-border: #374151;
+
+  --ui-color-primary: #3b82f6;
+  --ui-color-primary-hover: #2563eb;
+  --ui-color-primary-contrast: #ffffff;
+
+  --ui-color-secondary: #374151;
+  --ui-color-secondary-hover: #4b5563;
+  --ui-color-secondary-contrast: #f9fafb;
+
+  --ui-color-outline: #60a5fa;
+  --ui-color-outline-hover-bg: rgba(96, 165, 250, 0.12);
+
+  --ui-color-danger: #f87171;
+  --ui-color-danger-bg: rgba(248, 113, 113, 0.12);
+
+  --ui-color-overlay: rgba(2, 6, 23, 0.7);
+  --ui-shadow-md: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+body {
+  margin: 0;
+  font-family: var(--ui-font-family);
+  background: var(--ui-color-bg);
+  color: var(--ui-color-text);
+}
